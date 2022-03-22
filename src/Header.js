@@ -28,7 +28,7 @@ function Header() {
                 onChange={e => setInputSearch(e.target.value)} 
                 value={inputSearch} 
                 placeholder="Search" 
-                type="text" 
+                type="text"
             />
             <Link to={`/search/${inputSearch}`}>
                 <SearchIcon className="header__inputButton"/>
