@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Quick overview
 
-Hey there, created this Youtube Clone app and just trying to get it as perfect as Youtube's own site. 
+Hey there, created this Youtube Clone app and just trying to get it as perfect as Youtube's own site. here's the live link https://clone-cec61.web.app/
 
 ## Available Scripts
 
