@@ -3,7 +3,7 @@ import "./Sidebar.css"
 import SidebarRow from "./SidebarRow"
 // import HomKeIcon from '@mui/icons-material/Home';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
-import WhatshotOutlinedIcon from '@mui/icons-material/WhatshotOutlined';
+import ExploreOutlinedIcon from '@mui/icons-material/ExploreOutlined';
 import SubscriptionsOutlinedIcon from '@mui/icons-material/SubscriptionsOutlined';
 import VideoLibraryOutlinedIcon from '@mui/icons-material/VideoLibraryOutlined';
 import HistoryIcon from '@mui/icons-material/History';
@@ -16,7 +16,7 @@ function Sidebar() {
   return (
     <div className='sidebar'>
       <SidebarRow selected Icon={HomeOutlinedIcon} title="Home"/>
-      <SidebarRow Icon={WhatshotOutlinedIcon} title="Explore"/>
+      <SidebarRow Icon={ExploreOutlinedIcon} title="Explore"/>
       <SidebarRow Icon={SubscriptionsOutlinedIcon} title="Subscriptions"/>
       <hr />      
       <SidebarRow Icon={VideoLibraryOutlinedIcon} title="Library"/>
